@@ -1,0 +1,53 @@
+.contacts {
+	background-color: rgba(76, 76, 76, 0.4);
+	background-image: url("../img/bg/nizza.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-attachment: fixed;
+	// text-shadow: 0px 0px 40px rgba(18, 18, 18, 0.4);
+	color: #000;
+	
+	p {
+		color: #FFF;
+	}
+
+	a {
+		color: #FFF;
+		text-decoration: none;
+		border-bottom: 1px dotted #fff;
+		
+		&:hover {
+			color: @pinkyo;
+			text-decoration: none;
+			border-bottom: 1px dotted @greyHeading;
+		}
+	}
+	
+}
+
+.overlay-contact {
+		background-color: rgba(76, 76, 76, 0.4);
+		padding-top: 35px;
+		padding-bottom: 40px;
+	
+	@media (min-width: 768px){
+			padding-top: 50px;
+			padding-bottom: 60px;
+	}
+	
+	@media (min-width: 1200px){
+			padding-top: 74px;
+			padding-bottom: 90px;
+	}
+	
+}
+
+	
+
+
+.contacts__description {
+	margin-bottom: 30px;
+}
